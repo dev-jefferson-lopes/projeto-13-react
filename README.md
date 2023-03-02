@@ -7,7 +7,6 @@ Criar, importar e exportar componentes;
 Organizar o código, dividindo-o em partes menores e arquivos isolados.
 
 ## Layout web
-![Web 1]()
-
+![Web 1](https://github.com/dev-jefferson-lopes/projeto-13-react/blob/main/public/layout.jpeg)
 
 # Tecnologias utilizadas
