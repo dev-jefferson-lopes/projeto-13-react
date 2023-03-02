@@ -1,9 +1,11 @@
 import React from "react"
 
-export default function Footer(){
-    return(
+export default function Footer() {
+    return (
         <footer>
-            <h1>footer</h1>
+            <div>
+                <p>© 2022 Óticas Vida. - Todos os direitos reservados.</p>
+            </div>
         </footer>
     )
 }
