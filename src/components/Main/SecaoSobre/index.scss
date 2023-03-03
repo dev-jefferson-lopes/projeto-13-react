@@ -1,0 +1,46 @@
+.secao-sobre{
+    background-color: #f8f7ff;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.secao-sobre p{
+    line-height: 32px;
+}
+
+.boxs-cards{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boxs-cards img{
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #a2adad;
+}
+
+.card-text{
+    width: 50%;
+    padding: 20px 25px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text h3{
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 5px;
+}
+
+.card-text p{
+    font-size: 1.2em;
+    color: #4a4a4a;
+}
+
+
