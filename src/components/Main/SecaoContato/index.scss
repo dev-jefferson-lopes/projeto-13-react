@@ -1,0 +1,40 @@
+.secao-contanto{
+    width: 100%;
+    color: #fff;
+    padding: 80px 20px;
+    background-color: #05031b;
+    text-align: center;
+}
+
+.box-contato{
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.box-contato div{
+    margin: 0 50px;
+}
+
+.box-contato ul {
+    padding: 0;
+}
+
+.box-contato li{
+    margin: 10px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.box-contato img{
+    width: 18px;
+    margin-right: 10px;
+}
+
+.box-contato a{
+    color: #fff;
+    text-decoration: none;
+}

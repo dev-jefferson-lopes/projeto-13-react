@@ -1,12 +1,13 @@
 import React from "react";
+import "./index.scss"
 
 export default function SecaoContato(){
     return(
-        <section>
-           <div>
-            <h2>FALE CONOSCO</h2>
+        <section className="secao-contanto">
+           <div className="section-container">
+            <h2 className="sub-title">FALE CONOSCO</h2>
             <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>
-            <div>
+            <div className="box-contato">
                 <div>
                     <h3>Contato</h3>
                     <ul>
