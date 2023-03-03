@@ -38,3 +38,19 @@
     color: #fff;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .secao-contanto{
+        padding: 60px 20px;
+    }   
+}
+
+@media (max-width: 550px){
+    .box-contato{
+        flex-direction: column;
+    }
+
+    .box-contato div {
+        width: 200px;
+    }
+}

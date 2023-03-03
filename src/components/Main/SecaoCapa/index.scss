@@ -6,6 +6,10 @@
     height: 80vh;
 }
 
+.gradient{
+    background: linear-gradient(47deg, #000113 0%, #04061d5b 80%, #04061d21 100%);
+}
+
 .secao-capa div {
     height: 100%;
     width: 100%;
@@ -33,4 +37,28 @@
     margin: 0;
     letter-spacing: 5px;
     line-height: 70px;
+}
+
+@media (max-width: 768px) {
+    .secao-capa h1{
+        font-size: 2.2em;
+        max-width: 350px;
+        margin: 0;
+        line-height: 50px;
+    }
+
+    .secao-capa p{
+        font-size: 1.7em;
+    }
+
+    .secao-capa {
+        background-position: 70% center;
+    }   
+
+}
+
+@media (max-width: 550px) {
+    .secao-capa {
+        background-position: 80% center;
+    }   
 }

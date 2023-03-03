@@ -1,27 +1,27 @@
-.secao-sobre{
+.secao-sobre {
     background-color: #f8f7ff;
     text-align: center;
     padding: 80px 20px;
 }
 
-.secao-sobre p{
+.secao-sobre p {
     line-height: 32px;
 }
 
-.boxs-cards{
+.boxs-cards {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.boxs-cards img{
+.boxs-cards img {
     width: 50%;
     height: 300px;
     object-fit: cover;
     border: 1px solid #a2adad;
 }
 
-.card-text{
+.card-text {
     width: 50%;
     padding: 20px 25px;
     background-color: #fff;
@@ -31,16 +31,54 @@
     justify-content: center;
 }
 
-.card-text h3{
+.card-text h3 {
     font-size: 2em;
     text-transform: uppercase;
     line-height: 42px;
     letter-spacing: 5px;
 }
 
-.card-text p{
+.card-text p {
     font-size: 1.2em;
     color: #4a4a4a;
 }
 
+@media (max-width: 768px) {
+    .secao-sobre {
+        padding: 60px 20px;
+    }
 
+    .boxs-cards {
+        padding: 15px;
+    }
+
+
+    .card-text h3 {
+        font-size: 1.2em;
+        line-height: 30px;
+        letter-spacing: 0;
+    }
+    
+    .card-text p {
+        font-size: 1em;    
+    }
+}
+
+@media (max-width: 550px) {
+
+    .secao-sobre {
+        padding: 20px 10px;
+    }
+
+    .boxs-cards{
+        flex-direction: column;
+    }
+
+    .boxs-cards img {
+        width: 100%;
+    }
+
+    .card-text {
+        width: 100%;
+    }
+}

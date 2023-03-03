@@ -24,3 +24,17 @@
     padding: 5px;
     margin: 0 5px;
 }
+
+@media (max-width: 550px){
+    .top-header-content ul{
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #aaadaf;
+    }
+    .top-header-content{
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
